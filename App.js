@@ -22,7 +22,7 @@ export default function App() {
             } else if (route.name === "Events"){
               iconName = "list";
             } else if (route.name == 'Contact'){
-              iconName = "phone"; 
+              iconName = focused ? "user" : "user-o"; // means if we click contact, it will use user icon, eklse will use user-o icon
             }
 
             // You can return any component that you like here!
